@@ -7,4 +7,5 @@ package com.example.rodneytressler.peoplemon.Components;
 public final class Constants {
     public static final String token = "token";
     public static final String tokenExpiration = ".expires";
+    public static String IMAGE = "";
 }

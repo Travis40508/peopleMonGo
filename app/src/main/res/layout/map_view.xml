@@ -20,7 +20,10 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         app:fabSize="normal"
-        />
+        android:src="@drawable/logoutdude"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        app:backgroundTint="@android:color/transparent" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/button2"

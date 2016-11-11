@@ -5,7 +5,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.example.rodneytressler.peoplemon.Adapters.PeopleListAdapter;
 import com.example.rodneytressler.peoplemon.Models.Auth;
@@ -64,7 +63,7 @@ public class PeopleListView extends RelativeLayout {
                         adapter.notifyDataSetChanged();
                     }
                 } else {
-                    Toast.makeText(context, "Nope", Toast.LENGTH_SHORT).show();
+                    
                 }
             }
 

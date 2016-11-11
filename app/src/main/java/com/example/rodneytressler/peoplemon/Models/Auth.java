@@ -35,7 +35,7 @@ public class Auth {
     private Date expiration;
 
     @SerializedName("AvatarBase64")
-    private String image = "";
+    private String image;
 
     @SerializedName("ApiKey")
     private String apiKey = "iOSandroid301november2016";
