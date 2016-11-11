@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.rodneytressler.peoplemon.Views.EditProfileView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:text="Username"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView" />
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:drawableEnd="@android:drawable/ic_menu_camera"
+        />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Changes" />
+
+
+
+</com.example.rodneytressler.peoplemon.Views.EditProfileView>
